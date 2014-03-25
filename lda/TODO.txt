@@ -1,0 +1,7 @@
+这个地方主要记录LDA的写作流程
+
+先是py版本的
+1.lda.conf 用来记录文件参数
+2.preprocess.py 将语料库转换成blei提取的形式， 并且读取语料库的函数也会在这里写
+3.lda.py lda的主要实现部分
+4.read_conf.py 用来读取conf文件
